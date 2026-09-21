@@ -3,13 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Sources for the GitHub profile README: the stat bar, the project cards and the banner.",
+  "description": "Scripts behind the GitHub profile README: the daily stat bar and the link check.",
   "scripts": {
-    "cards": "node scripts/capture-work.mjs",
     "stats": "node scripts/build-stats.mjs"
-  },
-  "devDependencies": {
-    "playwright": "^1.60.0"
   },
   "license": "UNLICENSED"
 }

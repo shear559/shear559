@@ -26,7 +26,7 @@
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://averya.co.il"><img src="https://raw.githubusercontent.com/shear559/shear559/main/assets/work/averya.webp?v=4" alt="Averya" width="100%" /></a>
+<a href="https://averya.co.il"><img src="https://raw.githubusercontent.com/shear559/shear559/main/assets/work/averya.webp?v=5" alt="Averya" width="100%" /></a>
 
 ### [Averya](https://averya.co.il)
 
@@ -39,7 +39,7 @@ Digital, AI and business process improvement
 </td>
 <td width="50%" valign="top">
 
-<a href="https://fabius-landing.vercel.app"><img src="https://raw.githubusercontent.com/shear559/shear559/main/assets/work/fabius.webp?v=4" alt="fabius" width="100%" /></a>
+<a href="https://fabius-landing.vercel.app"><img src="https://raw.githubusercontent.com/shear559/shear559/main/assets/work/fabius.webp?v=6" alt="fabius" width="100%" /></a>
 
 ### [fabius](https://fabius-landing.vercel.app)
 
@@ -57,7 +57,7 @@ One set of rules above every model
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://click-pdf.vercel.app"><img src="https://raw.githubusercontent.com/shear559/shear559/main/assets/work/click-pdf.webp?v=4" alt="Click PDF" width="100%" /></a>
+<a href="https://click-pdf.vercel.app"><img src="https://raw.githubusercontent.com/shear559/shear559/main/assets/work/click-pdf.webp?v=5" alt="Click PDF" width="100%" /></a>
 
 ### [Click PDF](https://click-pdf.vercel.app)
 
@@ -70,7 +70,7 @@ Hebrew PDF editor, from editing to verification
 </td>
 <td width="50%" valign="top">
 
-<a href="https://editor-beta-ruby.vercel.app"><img src="https://raw.githubusercontent.com/shear559/shear559/main/assets/work/sculio.webp?v=3" alt="Sculio" width="100%" /></a>
+<a href="https://editor-beta-ruby.vercel.app"><img src="https://raw.githubusercontent.com/shear559/shear559/main/assets/work/sculio.webp?v=4" alt="Sculio" width="100%" /></a>
 
 ### [Sculio](https://editor-beta-ruby.vercel.app)
 
@@ -88,7 +88,7 @@ Visual HTML editor for landing pages
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://cryptools-brown.vercel.app"><img src="https://raw.githubusercontent.com/shear559/shear559/main/assets/work/cryptools.webp?v=3" alt="CryptoTools" width="100%" /></a>
+<a href="https://cryptools-brown.vercel.app"><img src="https://raw.githubusercontent.com/shear559/shear559/main/assets/work/cryptools.webp?v=5" alt="CryptoTools" width="100%" /></a>
 
 ### [CryptoTools](https://cryptools-brown.vercel.app)
 
@@ -101,7 +101,7 @@ Visual HTML editor for landing pages
 </td>
 <td width="50%" valign="top">
 
-<a href="https://arielshemeshweb.vercel.app/projects.html"><img src="https://raw.githubusercontent.com/shear559/shear559/main/assets/work/portfolio.webp?v=5" alt="Portfolio" width="100%" /></a>
+<a href="https://arielshemeshweb.vercel.app/projects.html"><img src="https://raw.githubusercontent.com/shear559/shear559/main/assets/work/portfolio.webp?v=7" alt="Portfolio" width="100%" /></a>
 
 ### [Portfolio](https://arielshemeshweb.vercel.app/projects.html)
 
