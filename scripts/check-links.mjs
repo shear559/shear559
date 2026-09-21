@@ -61,6 +61,12 @@ const checks = urls.map(async url => {
       headers: { 'user-agent': 'shear559-profile-linkcheck' },
       signal: AbortSignal.timeout(20_000),
     });
+    // Vercel's bot challenge answers 429 before any page is served. It proves
+    // the deployment is up (a removed project answers 404), not that the path
+    // exists, so it is reported as a challenge rather than failing the run.
+    if (res.status === 429 && res.headers.get('x-vercel-mitigated') === 'challenge') {
+      return ['http', 'challenge', url];
+    }
     if (res.status >= 400) {
       failures.push(`${res.status} ${url}`);
       return ['http', String(res.status), url];

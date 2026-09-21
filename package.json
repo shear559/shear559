@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Sources for everything the GitHub profile README renders: the project cards and the stat bar.",
+  "description": "Sources for the GitHub profile README: the stat bar, the project cards and the banner.",
   "scripts": {
     "cards": "node scripts/capture-work.mjs",
     "stats": "node scripts/build-stats.mjs"

@@ -24,7 +24,9 @@ const SITES = [
   ['click-pdf',  'https://click-pdf.vercel.app/'],
   ['sculio',     'https://editor-beta-ruby.vercel.app/'],
   ['cryptools',  'https://cryptools-brown.vercel.app/'],
-  ['portfolio',  'https://arielshemeshweb.vercel.app/'],
+  // the project grid, not the hero: the card shows the work, and the homepage
+  // hero is a portrait, a name banner and an email address
+  ['portfolio',  'https://arielshemeshweb.vercel.app/projects.html', 'main > section:nth-of-type(2)'],
 ];
 
 const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36';
@@ -57,7 +59,7 @@ if (!todo.length) throw new Error(`no such card: ${wanted.join(', ')}`);
 const browser = await chromium.launch({ args: ['--disable-blink-features=AutomationControlled'] });
 let failed = 0;
 
-for (const [slug, url] of todo) {
+for (const [slug, url, frame] of todo) {
   const ctx = await browser.newContext({
     viewport: { width: SHOT.width, height: SHOT.height },
     deviceScaleFactor: SHOT.scale,
@@ -73,10 +75,16 @@ for (const [slug, url] of todo) {
     await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 45_000 });
     await page.waitForTimeout(3_000);
     // Nudge the scroll so IntersectionObserver reveals fire, then come back
-    // to the top — otherwise the hero screenshots at opacity 0.
+    // to the top — otherwise the hero screenshots at opacity 0. A card with a
+    // frame selector comes back to that section instead of the top.
     await page.evaluate(() => window.scrollTo(0, 400));
     await page.waitForTimeout(1_200);
-    await page.evaluate(() => window.scrollTo(0, 0));
+    const framed = await page.evaluate(sel => {
+      const el = sel && document.querySelector(sel);
+      window.scrollTo(0, el ? el.getBoundingClientRect().top + window.scrollY : 0);
+      return !sel || !!el;
+    }, frame ?? null);
+    if (!framed) throw new Error(`frame selector matched nothing — ${frame}`);
     await page.waitForTimeout(1_800);
 
     const probe = (await page.evaluate(() => document.body.innerText)).match(/probe:\s*([\w-]+)/);
