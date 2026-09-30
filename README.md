@@ -57,46 +57,15 @@ One set of rules above every model
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://click-pdf.vercel.app"><img src="https://raw.githubusercontent.com/shear559/shear559/main/assets/work/click-pdf.webp?v=5" alt="Click PDF" width="100%" /></a>
-
-### [Click PDF](https://click-pdf.vercel.app)
-
-Hebrew PDF editor, from editing to verification
-
-`JavaScript` `PDF.js` `pdf-lib` `Cloudflare Workers`
-
-**[Live site ↗](https://click-pdf.vercel.app)**
-
-</td>
-<td width="50%" valign="top">
-
 <a href="https://editor-beta-ruby.vercel.app"><img src="https://raw.githubusercontent.com/shear559/shear559/main/assets/work/sculio.webp?v=4" alt="Sculio" width="100%" /></a>
 
 ### [Sculio](https://editor-beta-ruby.vercel.app)
 
-Visual HTML editor for landing pages
+Edit websites, PDFs and code. Export and encrypt in one workspace.
 
-`JavaScript` `Cloudflare Workers` `Resend`
+`JavaScript` `PDF.js` `Web Crypto API` `Cloudflare Workers`
 
 **[Live site ↗](https://editor-beta-ruby.vercel.app)**
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-<a href="https://cryptools-brown.vercel.app"><img src="https://raw.githubusercontent.com/shear559/shear559/main/assets/work/cryptools.webp?v=5" alt="CryptoTools" width="100%" /></a>
-
-### [CryptoTools](https://cryptools-brown.vercel.app)
-
-42 privacy-first developer tools
-
-`JavaScript` `Web Crypto API` `No backend`
-
-**[Live site ↗](https://cryptools-brown.vercel.app)**
 
 </td>
 <td width="50%" valign="top">
