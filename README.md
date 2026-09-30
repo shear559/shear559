@@ -57,15 +57,15 @@ One set of rules above every model
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://editor-beta-ruby.vercel.app"><img src="https://raw.githubusercontent.com/shear559/shear559/main/assets/work/sculio.webp?v=4" alt="Sculio" width="100%" /></a>
+<a href="https://command-virid.vercel.app/demo"><img src="https://raw.githubusercontent.com/shear559/shear559/main/assets/work/command.webp?v=1" alt="Command" width="100%" /></a>
 
-### [Sculio](https://editor-beta-ruby.vercel.app)
+### [Command](https://command-virid.vercel.app/demo)
 
-Edit websites, PDFs and code. Export and encrypt in one workspace.
+Clients, leads, projects and finances in one workspace
 
-`JavaScript` `PDF.js` `Web Crypto API` `Cloudflare Workers`
+`JavaScript` `Cloudflare Workers` `D1`
 
-**[Live site ↗](https://editor-beta-ruby.vercel.app)**
+**[Live demo ↗](https://command-virid.vercel.app/demo)**
 
 </td>
 <td width="50%" valign="top">
