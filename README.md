@@ -1,24 +1,14 @@
 <div align="center">
-  <a href="https://github.com/shear559?tab=repositories"><img alt="shear559, spelled in butterflies" src="https://raw.githubusercontent.com/shear559/shear559/main/assets/banner.webp?v=1" width="100%" /></a>
+  <img alt="shear559, spelled in butterflies" src="https://raw.githubusercontent.com/shear559/shear559/main/assets/banner.webp?v=1" width="100%" />
 </div>
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/shear559/shear559/main/assets/stats-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shear559/shear559/main/assets/stats-light.svg" />
-    <img alt="Contributions, public repositories and active days, with the last 30 days" src="https://raw.githubusercontent.com/shear559/shear559/main/assets/stats-dark.svg" width="100%" />
-  </picture>
-</div>
+# Ariel Shemesh
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/shear559/shear559/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shear559/shear559/output/github-snake.svg" />
-    <img alt="A snake eating the contribution graph" src="https://raw.githubusercontent.com/shear559/shear559/output/github-snake.svg" width="100%" />
-  </picture>
-</div>
+I build business software, AI agents and automations that turn operational needs into working tools. My projects span web applications, internal workspaces, digital operations and research into agent systems.
 
----
+My current focus is **Fabius**, a coordinated working method for AI agents, and **Mandryx**, a reference protocol for private agent communication and organizational memory.
+
+[Portfolio](https://arielshemeshweb.vercel.app) · [Averya](https://averya.co.il) · [Fabius](https://github.com/shear559/fabius) · [Mandryx](https://mandryx.vercel.app)
 
 ## Selected work
 
@@ -26,68 +16,78 @@
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://averya.co.il"><img src="https://raw.githubusercontent.com/shear559/shear559/main/assets/work/averya.webp?v=5" alt="Averya" width="100%" /></a>
+<a href="https://averya.co.il"><img src="https://raw.githubusercontent.com/shear559/shear559/main/assets/work/averya.webp?v=5" alt="Averya website" width="100%" /></a>
 
 ### [Averya](https://averya.co.il)
 
-Digital, AI and business process improvement
+Custom digital systems, automation and AI services, with a project-scoping and lead workflow.
 
-`JavaScript` `GSAP` `Cloudflare Workers` `Gemini`
-
-**[Live site ↗](https://averya.co.il)**
+`JavaScript` · `Cloudflare Workers` · `D1`
 
 </td>
 <td width="50%" valign="top">
 
-<a href="https://fabius-landing.vercel.app"><img src="https://raw.githubusercontent.com/shear559/shear559/main/assets/work/fabius.webp?v=6" alt="fabius" width="100%" /></a>
+<a href="https://fabius-landing.vercel.app"><img src="https://raw.githubusercontent.com/shear559/shear559/main/assets/work/fabius.webp?v=6" alt="Fabius website" width="100%" /></a>
 
-### [fabius](https://fabius-landing.vercel.app)
+### [Fabius](https://github.com/shear559/fabius)
 
-One set of rules above every model
+Fifteen coordinated skills for planning, engineering, research, design and verification within compatible agent hosts.
 
-`Markdown` `Claude Code` `Codex` `Grok Build`
+`Agent contracts` · `Node.js` · `Evaluation`
 
-**[Live site ↗](https://fabius-landing.vercel.app)** · [Source ↗](https://github.com/shear559/fabius)
+[Website](https://fabius-landing.vercel.app) · [Source](https://github.com/shear559/fabius)
 
 </td>
 </tr>
-</table>
-
-<table>
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://command-virid.vercel.app/demo"><img src="https://raw.githubusercontent.com/shear559/shear559/main/assets/work/command.webp?v=1" alt="Command" width="100%" /></a>
+<a href="https://command-virid.vercel.app/demo"><img src="https://raw.githubusercontent.com/shear559/shear559/main/assets/work/command.webp?v=1" alt="Command workspace" width="100%" /></a>
 
 ### [Command](https://command-virid.vercel.app/demo)
 
-Clients, leads, projects and finances in one workspace
+A Hebrew workspace for clients, leads, projects, scheduling and receivables.
 
-`JavaScript` `Cloudflare Workers` `D1`
+`JavaScript` · `Cloudflare Workers` · `D1`
 
-**[Live demo ↗](https://command-virid.vercel.app/demo)**
+[Public demo](https://command-virid.vercel.app/demo)
 
 </td>
 <td width="50%" valign="top">
 
-<a href="https://arielshemeshweb.vercel.app/projects.html"><img src="https://raw.githubusercontent.com/shear559/shear559/main/assets/work/portfolio.webp?v=7" alt="Portfolio" width="100%" /></a>
+<a href="https://arielshemeshweb.vercel.app/projects.html"><img src="https://raw.githubusercontent.com/shear559/shear559/main/assets/work/portfolio.webp?v=7" alt="Selected portfolio projects" width="100%" /></a>
 
 ### [Portfolio](https://arielshemeshweb.vercel.app/projects.html)
 
-5 case studies, each linking to the live product
+Case studies showing the problem, implementation and current scope of selected projects.
 
-`JavaScript` `Cloudflare Workers`
-
-**[Live site ↗](https://arielshemeshweb.vercel.app/projects.html)**
+`Web applications` · `AI systems` · `Automation`
 
 </td>
 </tr>
 </table>
 
----
+## Engineering and research
 
-## Research
+- **[Mandryx](https://mandryx.vercel.app)** — reference work on agent identity, task-scoped authority, protected communication and organizational memory.
+- **[HYDRA Studio](https://hydra-studio.vercel.app)** — a robotic-cell research environment combining hydraulic-arm simulation, parametric CAD and data analysis.
+- **[Document provenance](https://github.com/shear559/seal-provenance)** — an architecture paper and executable reference package for cryptographic encoding, conformance and cost measurements.
 
-**[A trustless anchor for document provenance ↗](https://github.com/shear559/seal-provenance)** — 63-page paper plus its runnable reference package
+These projects have different maturity levels. Their documentation distinguishes deployed interfaces, local tools, simulations and research implementations.
 
-`Solidity` `JavaScript` `EIP-712` `OpenTimestamps` `Certificate Transparency` `ML-DSA-65`
+## Working stack
+
+JavaScript and TypeScript · React and Vite · Node.js · Cloudflare Workers, D1 and R2 · PostgreSQL and Supabase · WordPress and WooCommerce · Python for analysis and tooling.
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shear559/shear559/main/assets/stats-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shear559/shear559/main/assets/stats-light.svg" />
+    <img alt="GitHub contributions, public repositories and active days" src="https://raw.githubusercontent.com/shear559/shear559/main/assets/stats-dark.svg" width="100%" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shear559/shear559/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shear559/shear559/output/github-snake.svg" />
+    <img alt="Contribution graph animation" src="https://raw.githubusercontent.com/shear559/shear559/output/github-snake.svg" width="100%" />
+  </picture>
+</div>
