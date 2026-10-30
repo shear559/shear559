@@ -1,6 +1,6 @@
-<div align="center">
-  <img alt="shear559, spelled in butterflies" src="https://raw.githubusercontent.com/shear559/shear559/main/assets/banner.webp?v=1" width="100%" />
-</div>
+<p>
+  <img src=".github/assets/readme-banner.webp" alt="Ariel Shemesh" width="100%" />
+</p>
 
 # Ariel Shemesh
 
